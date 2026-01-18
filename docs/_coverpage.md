@@ -1,4 +1,4 @@
-![logo](logo.png ":size=10%")
+![logo](/asserts/logo.png ":size=4%")
 
 # **Dyna Boot**
 

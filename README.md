@@ -1,4 +1,4 @@
-# codax-boot
+# book-dyna
 
 ---
-> An elegant platform for rapid development of web applications.
+> Dyna Boot 是基于 dyna-framework 的官方示例项目。
