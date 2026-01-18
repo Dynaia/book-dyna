@@ -1,0 +1,10 @@
+services:
+  docsify:
+    container_name: server
+    image: book-dyna:latest
+    build:
+      context: .
+    ports:
+      - 8000:3000
+    volumes:
+      - ./docs:/docs #方便本地调试
