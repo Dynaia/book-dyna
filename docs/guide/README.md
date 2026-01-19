@@ -28,6 +28,8 @@ Dyna 主要有以下几个核心模块：
 
 - 统一身份上下文 CallContext，包含身份信息 Identity 和用户信息 UserProfile，支持扩展 attributes
 
+- 统一日志追踪上下文 TraceContext，支持 W3C 标准
+
 2. **Data：主要统一数据规范**
 
 - 统一时间格式转换，使用 Long 类型和前端交互，避免时区差异导致的时间偏移问题
@@ -55,6 +57,8 @@ Dyna 主要有以下几个核心模块：
 - 统一接口响应结构封装 ResponseBodyAdvice
 
 - 支持国际化响应提示 message
+
+- 支持响应日志追踪 Traceid Spanid
 
 > **扩展模块能力**
 

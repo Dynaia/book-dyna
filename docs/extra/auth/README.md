@@ -8,6 +8,8 @@
 
 - 登录成功后自动缓存用户信息及用户权限。
 
+- 支持风控逻辑，锁定账号、人机防刷校验。
+
 ```pom
 <dependency>
     <groupId>com.dynaframework</groupId>
